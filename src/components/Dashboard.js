@@ -47,7 +47,7 @@ export const Dashboard = () => {
                         <div className="boxes" >
                             <div className="box box1">
                                 <i className="uil uil-thumbs-up"></i>
-                                <span className="text">Total hackweeks</span>
+                                <span className="text">Total Vex Events</span>
                                 <span className="number">50</span>
                             </div>
                             <div className="box box2">
@@ -57,7 +57,7 @@ export const Dashboard = () => {
                             </div>
                             <div className="box box3">
                                 <i className="uil uil-share"></i>
-                                <span className="text">Active participants</span>
+                                <span className="text">Active teams</span>
                                 <span className="number">106</span>
                             </div>
                         </div>
