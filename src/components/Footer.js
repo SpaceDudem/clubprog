@@ -35,7 +35,7 @@ export const Footer = () => {
               <a href="#"><img src={navIcon2} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Club Of Programmers, SSTC</p>
+            <p>Haphazardly held together with twigs and kite string by Mr. K, SSTC</p>
           </Col>
         </Row>
       </Container>
