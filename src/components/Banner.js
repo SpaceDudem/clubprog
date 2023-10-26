@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Ward Vex Club", "Vex Hacking 101", "Mrs. K's Vex Lab"];
+  const toRotate = ["Ward Vex Club", "Starbots Club", "Mrs. K's Vex Lab"];
   const period = 2000;
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export const Banner = () => {
                   <span className="tagline">Ward Robotics Club</span>
                   <h1 className="">{`Welcome to Mrs. K place for`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Just getting setteled in around here but have a lot of space to grow. Take a look around. There will be more added here. So look out links and barcodes and check back here from time to time. I might even have games. Have any ideas? For now, write them down and Mrs. K will get them to me. Happy Building!</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={(/Contact) => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
           </Col>
