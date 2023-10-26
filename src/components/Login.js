@@ -5,7 +5,7 @@ import "../hackweek.css";
 export const Login = () => {
     return (
         <div className="text-center m-5-auto login-body hashweek" id="hashweek">
-            <h2>Sign in to us</h2>
+            <h2>Sign in</h2>
             <form action="/home">
                 <p>
                     <label>Username</label>
